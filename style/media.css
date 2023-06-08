@@ -1,0 +1,170 @@
+@media (max-width:1479px) {
+    .header {
+        overflow: hidden;
+    }
+}
+
+@media (max-width:1057px) {
+    .companies {
+        justify-content: center;
+    }
+
+    .contacts {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:950px) {
+    .header-nav-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        position: fixed;
+        left: 0;
+        top:   -100% ;
+        background: white;
+        min-height: 100vh;
+        width: 100%;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    .overflow{
+        overflow: hidden;
+    }
+.active{
+    top: 0;
+}
+.header-nav a:nth-child(1){
+    z-index: 3;
+}
+    .header-nav__links {
+        flex-direction: column;
+    } 
+    .burger {
+        display: flex; 
+        z-index: 2;
+    } 
+
+    .intro {
+        flex-direction: column;
+    }
+
+    .goal-card {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .goal-card:nth-child(1) {
+        border-top: none;
+    }
+}
+
+@media (max-width:1377px) {
+    .video-card:after {
+        right: -100px;
+    }
+
+    .video-card:after {
+        right: -30px;
+    }
+
+    .main {
+        overflow: hidden;
+    }
+}
+
+@media (max-width:1147px) {
+    .solution-card {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .solution-card h2 {
+        max-width: 700px;
+    }
+
+    .solution-card p {
+        padding: 20px 0 0 0;
+    }
+
+    .solution-card {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .solution-card>img {
+        max-width: 100%;
+    }
+
+    .solution-text h2 {
+        width: fit-content;
+        text-align: center;
+    }
+
+    .solution-card:nth-child(4) img {
+        margin: 0;
+    }
+
+    .solution {
+        gap: 100px;
+    }
+
+    .solution-info {
+        margin: 67px 0 -30px 0;
+    }
+
+    .solution-card:nth-child(3) .solution-text {
+        order: 1;
+    }
+}
+
+@media (max-width:580px) {
+    .video-card:after {
+        right: -90px;
+    }
+
+    .goal-card {
+        flex-direction: column;
+        gap: 40px;
+        align-items: start;
+    }
+}
+
+@media (max-width:610px) {
+    .contacts-office-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .contacts-office img {
+        transform: scale(1.2);
+    }
+
+    .contacts-office-card {
+        padding: 21.95px 21.95px 30px;
+        white-space: nowrap;
+
+        width: 197px;
+        height: 187px;
+    }
+}
+
+@media (max-width:919px) {
+    .footer-flex-card:nth-child(1) {
+        order: 2;
+    }
+
+    .footer-flex-card ul {
+        align-items: start;
+    }
+
+    .footer-flex-card:nth-child(2) a {
+        justify-content: start;
+    }
+}
